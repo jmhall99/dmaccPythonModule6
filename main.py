@@ -7,6 +7,7 @@ The purpose of this program is to validate input by sending it through an import
 """
 
 from more_functions.validate_input_in_functions import score_input
+from more_functions.inner_functions import measurements
 
 display_string = score_input('Test 1', 70)  # function call, store in a variable
 print(display_string)  # print the result of the function
