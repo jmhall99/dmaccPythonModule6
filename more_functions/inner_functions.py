@@ -34,7 +34,8 @@ def measurements(shape):
 
 
 #the instructions say "in your main" call the function.   To me this means in MY main.py
-#I find this very confusing
+#I find this very confusing.   In the last assignment I believe we were even instructed to call the functions
+#from main.  Which is not how we are asked to do it here but the wording is the same.
 
 if __name__ == '__main__':      #this is NOT main.py I do not understand your explanation of this.  I also don't feel it was explained very clearly.
     rectangle = [2.1, 3.4]
