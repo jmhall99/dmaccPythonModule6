@@ -15,18 +15,19 @@ def measurements(shape):
         #print(areaValue)     # so I can see the value is correct
         return areaValue     # I dont know how to get this value back to the outer function
 
-    area(x,y)
+    #area(x,y)
 
     def perimeter(x, y):
         perimeterValue = (x * 2) + (y * 2)
         #print(perimeterValue)
         return perimeterValue
 
-    perimeter(x,y)
+    #perimeter(x,y)
 
     output = 'perimeter = ' + str(perimeter(x,y)) + ' & area = ' + str(area(x, y))
+
 #I dont understand how to output the values from the two inner functions with the outer function.
-#I did not see this in the material. Can you tell me where it is please?
+#I did not see this in the material. Can you tell me where it is please?  Is it just returning it?
 
     #output = 'perimeter = ' + str(perimeterValue) + ' & area = ' + str(areaValue)
     return output
