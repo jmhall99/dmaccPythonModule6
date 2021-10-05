@@ -12,12 +12,14 @@ def measurements(shape):
 
     def area(x, y):
         areaValue = x * y
+        print(areaValue)
         return areaValue
 
     area(x,y)
 
     def perimeter(x, y):
         perimeterValue = (x * 2) + (y * 2)
+        print(perimeterValue)
         return perimeterValue
 
     perimeter(x,y)
@@ -25,14 +27,14 @@ def measurements(shape):
 #I dont understand how to output the values from the two inner functions with the outer function.
 #I did not see this in the material. Can you tell me where it is please?
 
-output =  'perimeter = ' + perimeterValue + ' & area = ' + areaValue
-return output
+    output = 'perimeter = ' + perimeterValue + ' & area = ' + areaValue
+    return output
 
 
 #the instructions say "in your main" call the function.   To me this means in MY main.py
-#I find thuis very confusing
+#I find this very confusing
 
-if __name__ == '__main__':      #this is NOT main.py I do not understand your explanation of this.
+if __name__ == '__main__':      #this is NOT main.py I do not understand your explanation of this.  I also don't feel it was explained very clearly.
     rectangle = [2.1, 3.4]
     result = measurements(rectangle)
     print(result)
